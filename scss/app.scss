@@ -41,59 +41,67 @@
 
 //write custom styles here
 
+//variables
+$Georgia: 'Georgia', georgia, serif;
+$Helvetica: 'Helvetica', helvetica, sans-serif;
+$red: #c54732;
+
 //general styles
+h2{
+  font-family: $Georgia;
+  font-weight: bolder;
+  font-size: 2em;
+}
 h3{
-  font-family: 'Helvetica';
+  font-family: $Georgia;
+  font-style: italic;
+  color: $red;
+  font-size: 1em;
+  line-height: 1.5px;
 }
-
-p{
-  font-family: 'Helvetica';
+h4{
+  font-family: $Helvetica;
+  text-align: left;
+  font-size: 1.1em;
 }
-
+.hideOnSmall{
+        @media (max-width: 675px) {
+          display: none;
+        }
+      }
 
 //nested styles
 
 body{
   background-color: #eae9e4;
   .container{
-    border-top: 4px solid #c54732;
+    border-top: 4px solid $red;
+    
     .header{
-
-      h2{
-        font-family: 'Georgia Bold', serif;
-        font-size: 2em;
-        span{
-          color: #8b8b8b;
-        }
-      }
-      h3{
-        font-family: 'Georgia', georgia, serif;
-        font-style: italic;
-        color: #c54732;
-        font-size: 1em;
-        line-height: 1.5px;
+      span{
+        color: #8b8b8b;
       }
       ul{
         list-style-type: none;
-        font-family: 'Helvetica', sans-serif;
+        font-family: $Helvetica;
         font-size: .8em;
+        text-align: center;
         li{
           display: inline-block;
           margin: 15px;
-
-          :hover{
-            background-color: #484342;
-            color: #c54732;
+          @media (max-width: 675px) {
+            display: inline;
           }
           a{
             color: #585858;
           }
           #loginLink{
-            color: #c54732;
+            color:$red;
           }
         }
       }
     }
+
     .mainSlideArea{
       text-align: center;
       padding-bottom: 34px;
@@ -101,38 +109,34 @@ body{
         text-align: right;
         margin-right: -31px;
         margin-top: -260px;
-      }
+        }
       .underShirts{
         text-align: right;
         margin-right: 20px;
         margin-top: -134px;
         img{
           border: 3px solid white;
-        }
+          }
       }
     }
+
     .rideWith{
       margin-bottom: 18px;
       .rideWithImg{
         border: 6px solid white;
         margin-bottom: 16px;
       }
-      h4{
-        font-family: 'Helvetica';
-        text-align: left;
-        font-size: 1.1em;
-      }
       .textLeft{
         font-weight: bolder;
         color: black;
       }
       .textRight{
-        color: #c54732;
+        color: $red;
         font-weight: lighter;
       }
       span{
-        color: #c54732;
-        font-family: 'Georgia';
+        color: $red;
+        font-family: $Georgia;
         font-style: italic;
         font-size: 2.4em;
       }
@@ -140,17 +144,16 @@ body{
         font-size: .8em;
       }
       a{
-        color: #c54732;
+        color: $red;
       }
     }
+
     .bannerAds{
-      h3{
-        font-size: 1.1em;
-        font-family: 'Helvetica';
+      h4{
         font-weight: bold;
       }
       p{
-        font-family: 'Helvetica';
+        font-family: $Helvetica;
         font-weight: lighter;
         font-size: .9em;
       }
@@ -162,14 +165,16 @@ body{
           padding-right: 20px;
           padding-top: 10px;
           padding-bottom: 10px;
+          font-size: 1em;
         }
         .emailText{
-          font-family: 'Georgia';
+          font-family: $Georgia;
           font-style: italic;
           font-weight: lighter;
           color: white;
           padding-left: 20px;
           padding-right: 20px;
+          font-size: .8em;
         }
         ul{
           list-style-type: none;
@@ -179,18 +184,18 @@ body{
         }
       }
       a{
-        color: #c54732;
+        color: $red;
       }
     }
     footer{
       background-color: #454040;
       .footerHeads{
-        color: #c54732;
+        color: $red;
         font-weight: bolder;
       }
       .footerLinks{
         color: white;
-        font-family: 'Helvetica';
+        font-family: $Helvetica;
         font-weight: lighter;
       }
       p{
@@ -228,8 +233,15 @@ body{
           }
         }
       }
-      #contactEmail{
-        text-decoration: underline;
+      .contact{
+        margin-bottom: 0px;
+      }
+      .contactInfo{
+        line-height: 6px;
+        margin-top: 0px;
+        #contactEmail{
+          text-decoration: underline;
+        }
       }
     }
   }
