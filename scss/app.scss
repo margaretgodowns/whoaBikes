@@ -1,0 +1,193 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+//write custom styles here
+
+//general styles
+h3{
+  font-family: 'Helvetica';
+}
+
+p{
+  font-family: 'Helvetica';
+}
+
+
+//nested styles
+
+body{
+  background-color: #eae9e4;
+  .container{
+    border-top: 4px solid #c54732;
+    .header{
+
+      h2{
+        font-family: 'Georgia Bold', serif;
+        font-size: 2em;
+        span{
+          color: #8b8b8b;
+        }
+      }
+      h3{
+        font-family: 'Georgia', georgia, serif;
+        font-style: italic;
+        color: #c54732;
+        font-size: 1em;
+        line-height: 1.5px;
+      }
+      ul{
+        list-style-type: none;
+        font-family: 'Helvetica', sans-serif;
+        font-size: .8em;
+        li{
+          display: inline-block;
+          margin: 15px;
+
+          :hover{
+            background-color: #484342;
+            color: #c54732;
+          }
+          a{
+            color: #585858;
+          }
+          #loginLink{
+            color: #c54732;
+          }
+        }
+      }
+    }
+    .mainSlideArea{
+      text-align: center;
+      padding-bottom: 34px;
+      .banner{
+        text-align: right;
+        margin-right: -31px;
+        margin-top: -260px;
+      }
+      .underShirts{
+        text-align: right;
+        margin-right: 20px;
+        margin-top: -134px;
+        img{
+          border: 3px solid white;
+        }
+      }
+    }
+    .rideWith{
+      margin-bottom: 18px;
+      .rideWithImg{
+        border: 6px solid white;
+        margin-bottom: 16px;
+      }
+      h4{
+        font-family: 'Helvetica';
+        text-align: left;
+        font-size: 1.1em;
+      }
+      .textLeft{
+        font-weight: bolder;
+        color: black;
+      }
+      .textRight{
+        color: #c54732;
+        font-weight: lighter;
+      }
+      span{
+        color: #c54732;
+        font-family: 'Georgia';
+        font-style: italic;
+        font-size: 2.4em;
+      }
+      p{
+        font-size: .8em;
+      }
+      a{
+        color: #c54732;
+      }
+    }
+    .bannerAds{
+      h3{
+        font-size: 1.2em;
+        font-family: 'Helvetica';
+        font-weight: bold;
+      }
+      p{
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: .9em;
+      }
+      .email{
+        background-color: #b13824;
+        height: 200px;
+        .emailText{
+          font-family: 'Georgia';
+          font-style: italic;
+          font-weight: lighter;
+          color: white;
+        }
+      }
+    }
+    footer{
+      background-color: #342d2d;
+      a{
+        color: #c54732;
+      }
+      p{
+        font-size: .8em;
+        color: white;
+      }
+      ul{
+        list-style-type: none;
+        font-size: .8em;
+        a{
+          color: #c54732;
+        }
+        li{
+          color: white;
+        }
+      }
+      .retailBox{
+        background-color: #dfdfdf;
+        padding: 15px;
+      }
+    }
+  }
+}
