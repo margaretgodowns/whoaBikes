@@ -3629,6 +3629,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/dvdImg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 193174,
+		"inputAbbreviatedPath": "\/images\/dvdImg.png",
+		"outputAbbreviatedPath": "\/images\/dvdImg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mainImg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 325968,
+		"inputAbbreviatedPath": "\/images\/mainImg.png",
+		"outputAbbreviatedPath": "\/images\/mainImg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/rightArrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3640,6 +3662,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/rightRider.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110834,
+		"inputAbbreviatedPath": "\/images\/rightRider.png",
+		"outputAbbreviatedPath": "\/images\/rightRider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/shopCart.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3647,6 +3680,17 @@
 		"initialSize": 2373,
 		"inputAbbreviatedPath": "\/images\/shopCart.png",
 		"outputAbbreviatedPath": "\/images\/shopCart.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/underShirts.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65888,
+		"inputAbbreviatedPath": "\/images\/underShirts.png",
+		"outputAbbreviatedPath": "\/images\/underShirts.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
