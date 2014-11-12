@@ -5577,8 +5577,12 @@ h4 {
   .hideOnSmall {
     display: none; } }
 
+.hidden {
+  opacity: 0.001; }
+
 body {
-  background-color: #eae9e4; }
+  background-image: url('../images/gradient.png') no-repeat center center fixed;
+  background-size: cover; }
   body .container {
     border-top: 4px solid #c54732; }
     body .container .header span {
@@ -5588,8 +5592,6 @@ body {
       font-family: 'Helvetica', helvetica, sans-serif;
       font-size: 0.8em;
       text-align: center; }
-      body .container .header ul .menuHover :hover {
-        background-color: gray; }
       body .container .header ul li {
         display: inline-block;
         margin: 15px; }
@@ -5608,17 +5610,16 @@ body {
         body .container .mainSlideArea .mainQuote p {
           color: white;
           font-family: 'Myriad Pro', sans-serif;
-          font-size: 2.8em;
+          font-size: 50px;
           font-weight: lighter;
-          margin-top: -534px;
-          margin-right: 30px;
-          line-height: 40px; }
+          margin-top: -555px;
+          margin-left: -10px;
+          line-height: 60px; }
           body .container .mainSlideArea .mainQuote p span {
-            color: #c54732;
+            color: #f34b2e;
             font-family: 'Georgia', georgia, serif;
             font-style: italic;
-            line-height: 120px;
-            font-size: 2.6em;
+            font-size: 100px;
             margin-left: -30px; }
       body .container .mainSlideArea .banner {
         text-align: right;
@@ -5673,6 +5674,18 @@ body {
       font-family: 'Helvetica', helvetica, sans-serif;
       font-weight: lighter;
       font-size: 0.9em; }
+    body .container .bannerAds .baristaKnicker .hiddenText {
+      color: white;
+      font-family: 'Georgia', georgia, serif;
+      font-style: italic;
+      background-color: black;
+      opacity: 0.5; }
+    body .container .bannerAds .baristaKnicker #baristaKnicker {
+      margin-top: -25px;
+      margin-left: 10px;
+      display: none; }
+    body .container .bannerAds .baristaKnicker:hover #baristaKnicker {
+      display: block; }
     body .container .bannerAds .email {
       background-color: #b13824;
       height: 200px; }

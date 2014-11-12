@@ -69,11 +69,15 @@ h4{
     display: none;
   }
 }
+.hidden{
+  opacity: .001;
+}
 
 //nested styles
 
 body{
-  background-color: #eae9e4;
+  background-image: url('../images/gradient.png') no-repeat center center fixed;
+  background-size: cover;
   .container{
     border-top: 4px solid $red;
     
@@ -86,11 +90,6 @@ body{
         font-family: $Helvetica;
         font-size: .8em;
         text-align: center;
-        .menuHover{
-          :hover{
-            background-color: gray;
-          }
-        }
         li{
           display: inline-block;
           margin: 15px;
@@ -115,17 +114,16 @@ body{
         p{
           color: white;
           font-family: 'Myriad Pro', sans-serif;
-          font-size: 2.8em;
+          font-size: 50px;
           font-weight: lighter;
-          margin-top: -534px;
-          margin-right: 30px;
-          line-height: 40px;
+          margin-top: -555px;
+          margin-left: -10px;
+          line-height: 60px;
           span{
-          color: $red;
+          color: #f34b2e;
           font-family: $Georgia;
           font-style: italic;
-          line-height: 120px;
-          font-size: 2.6em;
+          font-size: 100px;
           margin-left: -30px;
         }
         }
@@ -202,6 +200,23 @@ body{
         font-weight: lighter;
         font-size: .9em;
       }
+      .baristaKnicker{
+        .hiddenText{
+        color: white;
+        font-family: $Georgia;
+        font-style: italic;
+        background-color: black;
+        opacity: .5;
+      }
+      #baristaKnicker{
+        margin-top: -25px;
+        margin-left: 10px;
+        display: none;
+      }
+      &:hover #baristaKnicker{
+        display: block;
+      }
+    }
       .email{
         background-color: #b13824;
         height: 200px;

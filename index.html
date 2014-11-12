@@ -17,7 +17,7 @@
         </div>
         <div class="large-8 small-12 columns">
           <ul>
-            <li><a href="#">HOME</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
+            <li><a href="#">HOME</a><br><img class="hidden hideOnSmall" src="images/downArrow.png"></li>
             <li><a data-dropdown="hover1" data-options="is_hover:true" href="#">PRODUCTS</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
             <ul id="hover1" class="f-dropdown" data-dropdown-content>
               <li><a href="#">This is a link</a></li>
@@ -26,8 +26,8 @@
             </ul>
             <li><a href="#">A CLOSER LOOK</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
             <li><a href="#">BLOG</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
-            <li><a href="#">FIND A RETAILER</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
-            <li><a id="loginLink" href="#">login</a><img class="hideOnSmall" src="images/shopCart.png"><br><img class="hideOnSmall" src="images/downArrow.png"></li>
+            <li><a href="#">FIND A RETAILER</a><br><img class="hidden" src="images/downArrow.png"></li>
+            <li><a id="loginLink" href="#">login</a><img class="hideOnSmall" src="images/shopCart.png"><br><img class="hideOnSmall hidden" src="images/downArrow.png"></li>
           </ul>
         </div>
       </div>
@@ -86,15 +86,16 @@
 
     <div class="bannerAds">
       <div class="row">
-        <div class="large-3 columns">
-          <img src="images/pants.png" alt="" />
+        <div class="large-3 columns baristaKnicker">
+          <a><img src="images/pants.png" alt="" /></a>
+          <p class="hiddenText" id="baristaKnicker">Barista Knicker</p>
           <h4>URBAN RIDING</h4>
           <p>
             Enjoy your work commute or your ride down to the coffee shop with our casual urban riding line. <br><a href="#">SEE THE COLLECTION</a>
           </p>
         </div>
         <div class="large-3 columns">
-          <img src="images/velocity.png" alt="" />
+          <a><img src="images/velocity.png" alt="" /></a>
           <h4>LOOK "PROFI"</h4>
           <p>
             Whoa! custom cycling clothing is chosen by thousands of cyclists around the world everyday.
@@ -103,7 +104,7 @@
           
         </div>
         <div class="large-3 columns">
-          <img src="images/sunscreen.png" alt="" />
+          <a><img src="images/sunscreen.png" alt="" /></a>
           <h4>OFFICIAL SUNSCREEN OF TEAM GET OFF <br>YOUR ASS</h4>
           <p>
             Maximum Solar Protection for Athletes. <a href="#">LEARN MORE</a>
