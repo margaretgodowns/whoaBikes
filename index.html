@@ -18,7 +18,12 @@
         <div class="large-8 small-12 columns">
           <ul>
             <li><a href="#">HOME</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
-            <li><a href="#">PRODUCTS</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
+            <li><a data-dropdown="hover1" data-options="is_hover:true" href="#">PRODUCTS</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
+            <ul id="hover1" class="f-dropdown" data-dropdown-content>
+              <li><a href="#">This is a link</a></li>
+              <li><a href="#">This is another</a></li>
+              <li><a href="#">Yet another</a></li>
+            </ul>
             <li><a href="#">A CLOSER LOOK</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
             <li><a href="#">BLOG</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
             <li><a href="#">FIND A RETAILER</a><br><img class="hideOnSmall" src="images/downArrow.png"></li>
@@ -36,7 +41,7 @@
         <div class="large-4 columns"></div>
         <div class="large-4 columns">
           <div class="mainQuote">
-          <p>IT'S ABOUT <br><span> more </span><br>THAN<br> RIDING A<br> BIKE.</p>
+            <p>IT'S ABOUT <br><span> more </span><br>THAN<br> RIDING A<br> BIKE.</p>
           </div>
         </div>
       </div>
@@ -64,7 +69,7 @@
             </div>
             <div class="large-8 columns">
               <h4 class="textLeft">A RIDE WITH WHOA!</h4>
-          <p>Spanning his early years as a junior to the disappointment of 2009 Roubaix, this unadorned everything-you-ever-wanted-to-know-about-the-guy portrait puts a microscope on the silent man of cycling, George Hincapie. <a href="#">ORDER THE DVD <img src="images/rightArrow.png"></a></p>
+              <p>Spanning his early years as a junior to the disappointment of 2009 Roubaix, this unadorned everything-you-ever-wanted-to-know-about-the-guy portrait puts a microscope on the silent man of cycling, George Hincapie. <a href="#">ORDER THE DVD <img src="images/rightArrow.png"></a></p>
             </div>
           </div>
         </div>
@@ -72,7 +77,7 @@
           <img class="rideWithImg" src="images/rightRider.png">
           <div class="row">
             <h4 class="textRight">THIS IS AN INTRO TO A BLOCK QUOTE</h4>
-          <p><span>“America’s premier classics rider”</span><br>If you see Whoa!’s signature on it, you know that it is worthy of the world’s most dedicated cyclists.  <a href="#">SEE THE COLLECTION<img src="images/rightArrow.png"></a> </p>
+            <p><span>“America’s premier classics rider”</span><br>If you see Whoa!’s signature on it, you know that it is worthy of the world’s most dedicated cyclists.  <a href="#">SEE THE COLLECTION<img src="images/rightArrow.png"></a> </p>
           </div>
         </div>
       </div>
@@ -107,15 +112,15 @@
         </div>
         <div class="large-3 columns">
           <div class="email">
-          <h4 id="emailNewsletter">EMAIL NEWSLETTER</h4>
-          <p class="emailText">Sign up for our email newsletter and stay informed of the latest news and offers from Whoa! Sportswear.</p>
-          <form action="index.html" method="post">
-            <ul>
-              <li><input type="text" placeholder="your email address" value=""></li>
-              <li><img src="images/blackArrow.png"></li>
-            </ul>
-          </form>
-        </div>
+            <h4 id="emailNewsletter">EMAIL NEWSLETTER</h4>
+            <p class="emailText">Sign up for our email newsletter and stay informed of the latest news and offers from Whoa! Sportswear.</p>
+            <form action="index.html" method="post">
+              <ul>
+                <li><input type="text" placeholder="your email address" value=""></li>
+                <li><img src="images/blackArrow.png"></li>
+              </ul>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -166,11 +171,11 @@
               Find the retailer near you
             </p>
             <form action="index.html" method="post">
-            <ul class="zipCode">
-              <li><input type="text" placeholder="your zip code" value=""></li>
-              <li><img src="images/blackArrow.png"></li>
-            </ul>
-          </form>
+              <ul class="zipCode">
+                <li><input type="text" placeholder="your zip code" value=""></li>
+                <li><img src="images/blackArrow.png"></li>
+              </ul>
+            </form>
           </div>
 
           <ul class="contact">

@@ -5588,6 +5588,8 @@ body {
       font-family: 'Helvetica', helvetica, sans-serif;
       font-size: 0.8em;
       text-align: center; }
+      body .container .header ul .menuHover :hover {
+        background-color: gray; }
       body .container .header ul li {
         display: inline-block;
         margin: 15px; }

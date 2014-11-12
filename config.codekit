@@ -3629,6 +3629,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/dvdCase.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29005,
+		"inputAbbreviatedPath": "\/images\/dvdCase.png",
+		"outputAbbreviatedPath": "\/images\/dvdCase.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/dvdImg.png": {
 		"fileType": 32768,
 		"ignore": 0,
