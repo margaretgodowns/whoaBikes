@@ -5650,14 +5650,19 @@ body {
       body .container .rideWith .textLeft {
         font-weight: bolder;
         color: black; }
+      body .container .rideWith h4 {
+        margin-left: 20px; }
       body .container .rideWith .textRight {
         color: #c54732;
-        font-weight: lighter; }
-      body .container .rideWith span {
-        color: #c54732;
-        font-family: 'Georgia', georgia, serif;
-        font-style: italic;
-        font-size: 2.4em; }
+        font-weight: lighter;
+        margin-left: 20px; }
+      body .container .rideWith .textRightP {
+        margin-left: 20px; }
+        body .container .rideWith .textRightP span {
+          color: #c54732;
+          font-family: 'Georgia', georgia, serif;
+          font-style: italic;
+          font-size: 2.4em; }
       body .container .rideWith p {
         font-size: 0.8em; }
       body .container .rideWith a {

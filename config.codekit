@@ -3662,6 +3662,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/pants.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31876,
+		"inputAbbreviatedPath": "\/images\/pants.png",
+		"outputAbbreviatedPath": "\/images\/pants.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/rightArrow.png": {
 		"fileType": 32768,
 		"ignore": 0,

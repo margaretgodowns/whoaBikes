@@ -168,15 +168,22 @@ body{
         font-weight: bolder;
         color: black;
       }
+      h4{
+        margin-left: 20px;
+      }
       .textRight{
         color: $red;
         font-weight: lighter;
+        margin-left: 20px;
       }
+      .textRightP{
+        margin-left: 20px;
       span{
         color: $red;
         font-family: $Georgia;
         font-style: italic;
         font-size: 2.4em;
+      }
       }
       p{
         font-size: .8em;
