@@ -76,7 +76,7 @@ h4{
 //nested styles
 
 body{
-  background-image: url('../images/gradient.png') no-repeat center center fixed;
+  background-image: url('../images/gradient.png');
   background-size: cover;
   .container{
     border-top: 4px solid $red;

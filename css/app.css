@@ -5581,7 +5581,7 @@ h4 {
   opacity: 0.001; }
 
 body {
-  background-image: url('../images/gradient.png') no-repeat center center fixed;
+  background-image: url('../images/gradient.png');
   background-size: cover; }
   body .container {
     border-top: 4px solid #c54732; }
