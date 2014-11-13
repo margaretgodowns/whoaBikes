@@ -5583,173 +5583,188 @@ h4 {
 body {
   background-image: url('../images/gradient.png');
   background-size: cover; }
-  body .container {
-    border-top: 4px solid #c54732; }
-    body .container .header span {
-      color: #8b8b8b; }
-    body .container .header ul {
-      list-style-type: none;
-      font-family: 'Helvetica', helvetica, sans-serif;
-      font-size: 0.8em;
-      text-align: center; }
-      body .container .header ul li {
-        display: inline-block;
-        margin: 15px; }
-        @media (max-width: 675px) {
-          body .container .header ul li {
-            display: inline; } }
-        body .container .header ul li a {
-          color: #585858; }
-        body .container .header ul li #loginLink {
-          color: #c54732; }
-    body .container .mainSlideArea {
-      text-align: center;
-      padding-bottom: 34px; }
-      body .container .mainSlideArea .mainQuote {
-        text-align: left; }
-        body .container .mainSlideArea .mainQuote p {
-          color: white;
-          font-family: 'Myriad Pro', sans-serif;
-          font-size: 50px;
-          font-weight: lighter;
-          margin-top: -555px;
-          margin-left: -10px;
-          line-height: 60px; }
-          body .container .mainSlideArea .mainQuote p span {
-            color: #f34b2e;
-            font-family: 'Georgia', georgia, serif;
-            font-style: italic;
-            font-size: 100px;
-            margin-left: -30px; }
-      body .container .mainSlideArea .banner {
-        text-align: right;
-        margin-right: -31px;
-        margin-top: -260px; }
-        body .container .mainSlideArea .banner h4 {
-          text-align: right;
-          color: white;
-          z-index: 5;
-          margin-top: -149px;
-          margin-right: 78px;
-          font-size: 1.8em; }
-        body .container .mainSlideArea .banner p {
-          font-family: 'Georgia', georgia, serif;
-          color: white;
-          font-style: italic;
-          font-weight: lighter;
-          font-size: 0.8em;
-          margin-right: 124px; }
-      body .container .mainSlideArea .underShirts {
-        text-align: right;
-        margin-right: 20px;
-        margin-top: -134px; }
-    body .container .rideWith {
-      margin-bottom: 18px; }
-      body .container .rideWith .rideWithImg {
-        border: 6px solid white;
-        margin-bottom: 16px; }
-      body .container .rideWith .textLeft {
-        font-weight: bolder;
-        color: black; }
-      body .container .rideWith h4 {
-        margin-left: 20px; }
-      body .container .rideWith .textRight {
-        color: #c54732;
-        font-weight: lighter;
-        margin-left: 20px; }
-      body .container .rideWith .textRightP {
-        margin-left: 20px; }
-        body .container .rideWith .textRightP span {
-          color: #c54732;
-          font-family: 'Georgia', georgia, serif;
-          font-style: italic;
-          font-size: 2.4em; }
-      body .container .rideWith p {
-        font-size: 0.8em; }
-      body .container .rideWith a {
+  body .container .topBorder {
+    height: 4px;
+    background-color: #c54732;
+    box-shadow: 0px 2px 8px #888888; }
+  body .container .header h2 {
+    margin-left: 60px; }
+  body .container .header h3 {
+    margin-left: 60px; }
+  body .container .header span {
+    color: #8b8b8b; }
+  body .container .header ul {
+    list-style-type: none;
+    font-family: 'Helvetica', helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: center; }
+    body .container .header ul li {
+      display: inline-block;
+      margin-top: 15px;
+      margin-bottom: 12px; }
+      body .container .header ul li :hover {
+        background-color: #4c4645; }
+      @media (max-width: 675px) {
+        body .container .header ul li {
+          display: inline; } }
+      body .container .header ul li a {
+        color: #585858;
+        padding-top: 34px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 12px; }
+        body .container .header ul li a:hover {
+          color: #F34B2E; }
+      body .container .header ul li #loginLink {
         color: #c54732; }
-    body .container .bannerAds h4 {
-      font-weight: bold; }
-    body .container .bannerAds p {
-      font-family: 'Helvetica', helvetica, sans-serif;
-      font-weight: lighter;
-      font-size: 0.9em; }
-    body .container .bannerAds .baristaKnicker .hiddenText {
-      color: white;
-      font-family: 'Georgia', georgia, serif;
-      font-style: italic;
-      background-color: black;
-      opacity: 0.5; }
-    body .container .bannerAds .baristaKnicker #baristaKnicker {
-      margin-top: -25px;
-      margin-left: 10px;
-      display: none; }
-    body .container .bannerAds .baristaKnicker:hover #baristaKnicker {
-      display: block; }
-    body .container .bannerAds .email {
-      background-color: #b13824;
-      height: 200px; }
-      body .container .bannerAds .email #emailNewsletter {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 1em; }
-      body .container .bannerAds .email .emailText {
+  body .container .mainSlideArea {
+    text-align: center;
+    padding-bottom: 34px; }
+    body .container .mainSlideArea .mainQuote {
+      text-align: left; }
+      body .container .mainSlideArea .mainQuote p {
+        color: white;
+        font-family: 'Myriad Pro', sans-serif;
+        font-size: 50px;
+        font-weight: lighter;
+        margin-top: -555px;
+        margin-left: -10px;
+        line-height: 60px; }
+        body .container .mainSlideArea .mainQuote p span {
+          color: #f34b2e;
+          font-family: 'Georgia', georgia, serif;
+          font-style: italic;
+          font-size: 100px;
+          margin-left: -30px; }
+    body .container .mainSlideArea .banner {
+      text-align: right;
+      margin-right: 18px;
+      margin-top: -238px; }
+      body .container .mainSlideArea .banner h4 {
+        text-align: right;
+        color: white;
+        z-index: 5;
+        margin-top: -94px;
+        margin-right: 78px;
+        font-size: 1.8em; }
+      body .container .mainSlideArea .banner p {
         font-family: 'Georgia', georgia, serif;
+        color: white;
         font-style: italic;
         font-weight: lighter;
-        color: white;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 0.8em; }
-      body .container .bannerAds .email ul {
-        list-style-type: none; }
-        body .container .bannerAds .email ul li {
-          display: inline-block; }
-    body .container .bannerAds a {
-      color: #c54732; }
-    body .container footer {
-      background-color: #454040; }
-      body .container footer .footerHeads {
-        color: #c54732;
-        font-weight: bolder; }
-      body .container footer .footerLinks {
-        color: white;
-        font-family: 'Helvetica', helvetica, sans-serif;
-        font-weight: lighter; }
-      body .container footer p {
         font-size: 0.8em;
-        color: black;
-        padding-top: 10px;
-        margin-bottom: 0px; }
-      body .container footer ul {
-        margin-top: 25px;
+        margin-right: 124px; }
+    body .container .mainSlideArea .underShirts {
+      text-align: right;
+      margin-right: 27px;
+      margin-top: -123px; }
+  body .container .rideWith {
+    margin-bottom: 18px; }
+    body .container .rideWith .rideWithImg {
+      border: 6px solid white;
+      margin-bottom: 16px; }
+    body .container .rideWith .textLeft {
+      font-weight: bolder;
+      color: black; }
+    body .container .rideWith h4 {
+      margin-left: 20px; }
+    body .container .rideWith .textRight {
+      color: #c54732;
+      font-weight: lighter;
+      margin-left: 20px; }
+    body .container .rideWith .textRightP {
+      margin-left: 20px; }
+      body .container .rideWith .textRightP span {
+        color: #c54732;
+        font-family: 'Georgia', georgia, serif;
+        font-style: italic;
+        font-size: 2.4em; }
+    body .container .rideWith p {
+      font-size: 0.8em; }
+    body .container .rideWith a {
+      color: #c54732; }
+  body .container .bannerAds h4 {
+    font-weight: bold; }
+  body .container .bannerAds p {
+    font-family: 'Helvetica', helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.9em; }
+  body .container .bannerAds .baristaKnicker .hiddenText {
+    color: white;
+    font-family: 'Georgia', georgia, serif;
+    font-style: italic;
+    background-color: black;
+    opacity: 0.5; }
+  body .container .bannerAds .baristaKnicker #baristaKnicker {
+    margin-top: -25px;
+    margin-left: 10px;
+    display: none; }
+  body .container .bannerAds .baristaKnicker:hover #baristaKnicker {
+    display: block; }
+  body .container .bannerAds .email {
+    background-color: #b13824;
+    height: 200px; }
+    body .container .bannerAds .email #emailNewsletter {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 1em; }
+    body .container .bannerAds .email .emailText {
+      font-family: 'Georgia', georgia, serif;
+      font-style: italic;
+      font-weight: lighter;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 0.8em; }
+    body .container .bannerAds .email ul {
+      list-style-type: none; }
+      body .container .bannerAds .email ul li {
+        display: inline-block; }
+  body .container .bannerAds a {
+    color: #c54732; }
+  body .container footer {
+    background-color: #454040; }
+    body .container footer .footerHeads {
+      color: #c54732;
+      font-weight: bolder; }
+    body .container footer .footerLinks {
+      color: white;
+      font-family: 'Helvetica', helvetica, sans-serif;
+      font-weight: lighter; }
+    body .container footer p {
+      font-size: 0.8em;
+      color: black;
+      padding-top: 10px;
+      margin-bottom: 0px; }
+    body .container footer ul {
+      margin-top: 25px;
+      list-style-type: none;
+      font-size: 0.8em; }
+      body .container footer ul li {
+        color: white;
+        padding-top: 15px; }
+    body .container footer .retailBox {
+      background-color: #b5b3ab;
+      padding: 10px;
+      margin-top: 15px;
+      width: 240px;
+      height: 100px;
+      text-align: left; }
+      body .container footer .retailBox input {
+        width: 110px;
+        height: 28px; }
+      body .container footer .retailBox .zipCode {
         list-style-type: none;
-        font-size: 0.8em; }
-        body .container footer ul li {
-          color: white;
-          padding-top: 15px; }
-      body .container footer .retailBox {
-        background-color: #b5b3ab;
-        padding: 10px;
-        margin-top: 15px;
-        width: 240px;
-        height: 100px;
-        text-align: left; }
-        body .container footer .retailBox input {
-          width: 110px;
-          height: 28px; }
-        body .container footer .retailBox .zipCode {
-          list-style-type: none;
-          margin: 0px; }
-          body .container footer .retailBox .zipCode li {
-            display: inline-block;
-            padding: 0px; }
-      body .container footer .contact {
-        margin-bottom: 0px; }
-      body .container footer .contactInfo {
-        line-height: 6px;
-        margin-top: 0px; }
-        body .container footer .contactInfo #contactEmail {
-          text-decoration: underline; }
+        margin: 0px; }
+        body .container footer .retailBox .zipCode li {
+          display: inline-block;
+          padding: 0px; }
+    body .container footer .contact {
+      margin-bottom: 0px; }
+    body .container footer .contactInfo {
+      line-height: 6px;
+      margin-top: 0px; }
+      body .container footer .contactInfo #contactEmail {
+        text-decoration: underline; }
