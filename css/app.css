@@ -5589,6 +5589,8 @@ body {
     box-shadow: 0px 2px 8px #888888; }
   body .container .header h2 {
     margin-left: 60px; }
+    body .container .header h2 a {
+      color: black; }
   body .container .header h3 {
     margin-left: 60px; }
   body .container .header span {
@@ -5638,8 +5640,8 @@ body {
           margin-left: -30px; }
     body .container .mainSlideArea .banner {
       text-align: right;
-      margin-right: 18px;
-      margin-top: -238px; }
+      margin-right: 14px;
+      margin-top: -262px; }
       body .container .mainSlideArea .banner h4 {
         text-align: right;
         color: white;

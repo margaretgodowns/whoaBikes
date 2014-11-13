@@ -3607,6 +3607,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bannerShadow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21375,
+		"inputAbbreviatedPath": "\/images\/bannerShadow.png",
+		"outputAbbreviatedPath": "\/images\/bannerShadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/blackArrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
